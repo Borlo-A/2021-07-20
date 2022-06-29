@@ -124,5 +124,10 @@ public class Review {
 		return true;
 	}
 
+	@Override
+	public String toString() {
+		return "Review [reviewId=" + reviewId + ", businessId=" + businessId + ", userId=" + userId + "]";
+	}
+
 	
 }

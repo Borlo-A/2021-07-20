@@ -1,6 +1,6 @@
 package it.polito.tdp.yelp.model;
 
-public class User {
+public class User{
 	private String userId;
 	private int votesFunny;
 	private int votesUseful;
@@ -106,5 +106,6 @@ public class User {
 	public String toString() {
 		return String.format("%s (%s)",  name, userId);
 	}
+
 	
 }
